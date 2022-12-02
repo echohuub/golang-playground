@@ -1,0 +1,11 @@
+{"level":"info","ts":1670001496.851848,"msg":"[custom]Success..","statusCode":"200 OK","url":"http://www.baidu.com"}
+{"level":"error","ts":1670001526.8540852,"msg":"[cusom]Error fetching url..","url":"http://www.google.com","error":"Get \"http://www.google.com\": dial tcp 168.143.171.186:80: i/o timeout"}
+{"level":"info","ts":1670001633.127588,"msg":"[custom]Success..","statusCode":"200 OK","url":"http://www.baidu.com"}
+{"level":"error","ts":1670001663.13057,"msg":"[cusom]Error fetching url..","url":"http://www.google.com","error":"Get \"http://www.google.com\": dial tcp 67.15.129.210:80: i/o timeout"}
+{"level":"info","ts":1670001779.235233,"msg":"[custom]Success..","statusCode":"200 OK","url":"http://www.baidu.com"}
+{"level":"error","ts":1670001809.2373152,"msg":"[cusom]Error fetching url..","url":"http://www.google.com","error":"Get \"http://www.google.com\": dial tcp 157.240.0.35:80: i/o timeout"}
+{"level":"INFO","ts":"2022-12-03T01:24:35.369+0800","msg":"[custom]Success..","statusCode":"200 OK","url":"http://www.baidu.com"}
+{"level":"ERROR","ts":"2022-12-03T01:25:05.372+0800","msg":"[cusom]Error fetching url..","url":"http://www.google.com","error":"Get \"http://www.google.com\": dial tcp 104.244.43.52:80: i/o timeout"}
+{"level":"INFO","ts":"2022-12-03T01:26:33.267+0800","caller":"zap/main.go:53","msg":"[custom]Success..","statusCode":"200 OK","url":"http://www.baidu.com"}
+{"level":"INFO","ts":"2022-12-03T01:27:15.999+0800","caller":"zap/main.go:53","msg":"[custom]Success..","statusCode":"200 OK","url":"http://www.baidu.com"}
+{"level":"ERROR","ts":"2022-12-03T01:27:46.001+0800","caller":"zap/main.go:49","msg":"[cusom]Error fetching url..","url":"http://www.google.com","error":"Get \"http://www.google.com\": dial tcp 104.244.43.52:80: i/o timeout"}
