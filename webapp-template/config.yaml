@@ -1,0 +1,24 @@
+name: "webapp"
+mode: "dev"
+port: 8080
+version: "0.0.1"
+log:
+  level: "debug"
+  filename: "webapp.log"
+  max_size: 200 # 文件大小200MB
+  max_age: 30 # 默认存储30天
+  max_backups: 7 # 备份数量
+mysql:
+  host: "127.0.0.1"
+  port: 13306
+  user: "root"
+  password: "root123456"
+  dbname: "sql_demo"
+  max_open_cons: 200
+  max_idle_cons: 50
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 100
